@@ -1,0 +1,177 @@
+[
+    {
+      "name": "Apple",
+      "price": 3.5,
+      "description": "Fresh red apples.",
+      "rating": 4.8,
+      "category": "Fruits",
+      "img_url": "https://cdn.pixabay.com/photo/2016/01/05/13/58/apple-1122537_640.jpg"
+    },
+    {
+      "name": "Banana",
+      "price": 1.2,
+      "description": "Organic bananas.",
+      "rating": 4.5,
+      "category": "Fruits",
+      "img_url": "https://cdn.pixabay.com/photo/2018/06/14/13/38/bananas-3474872_640.jpg"
+    },
+    {
+      "name": "Broccoli",
+      "price": 2.0,
+      "description": "Fresh green broccoli.",
+      "rating": 4.2,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2016/03/05/19/02/broccoli-1238250_640.jpg"
+    },
+    {
+      "name": "Carrot",
+      "price": 1.8,
+      "description": "Organic carrots.",
+      "rating": 4.6,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2016/07/11/00/18/carrots-1508847_640.jpg"
+    },
+    {
+      "name": "Chicken Breast",
+      "price": 5.5,
+      "description": "Boneless chicken breast.",
+      "rating": 4.7,
+      "category": "Meat",
+      "img_url": "https://cdn.pixabay.com/photo/2014/03/05/01/20/chicken-breast-279849_640.jpg"
+    },
+    {
+      "name": "Salmon Fillet",
+      "price": 10.0,
+      "description": "Fresh salmon fillet.",
+      "rating": 4.9,
+      "category": "Meat",
+      "img_url": "https://cdn.pixabay.com/photo/2015/06/15/03/46/seafood-809864_640.jpg"
+    },
+    {
+      "name": "Milk",
+      "price": 1.5,
+      "description": "1L of whole milk.",
+      "rating": 4.3,
+      "category": "Dairy",
+      "img_url": "https://cdn.pixabay.com/photo/2019/06/06/06/31/milk-4255262_640.png"
+    },
+    {
+      "name": "Cheddar Cheese",
+      "price": 3.0,
+      "description": "200g of cheddar cheese.",
+      "rating": 4.6,
+      "category": "Dairy",
+      "img_url": "https://cdn.pixabay.com/photo/2020/05/17/04/33/cheese-5179968_640.jpg"
+    },
+    {
+      "name": "Eggs",
+      "price": 2.5,
+      "description": "Pack of 12 free-range eggs.",
+      "rating": 4.7,
+      "category": "Dairy",
+      "img_url": "https://cdn.pixabay.com/photo/2018/03/11/18/34/brown-eggs-3217675_640.jpg"
+    },
+    {
+      "name": "Orange Juice",
+      "price": 3.2,
+      "description": "1L of freshly squeezed orange juice.",
+      "rating": 4.5,
+      "category": "Dairy",
+      "img_url": "https://cdn.pixabay.com/photo/2016/12/20/21/43/orange-1921548_640.jpg"
+    },
+    {
+      "name": "Tomato",
+      "price": 2.0,
+      "description": "Fresh red tomatoes.",
+      "rating": 4.4,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2022/09/17/13/54/cocktail-tomatoes-7461032_640.jpg"
+    },
+    {
+      "name": "Lettuce",
+      "price": 1.5,
+      "description": "Crisp lettuce.",
+      "rating": 4.3,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2015/05/17/14/29/salad-771056_640.jpg"
+    },
+    {
+      "name": "Potato",
+      "price": 2.5,
+      "description": "Fresh potatoes.",
+      "rating": 4.5,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2016/08/11/08/43/potatoes-1585060_640.jpg"
+    },
+    {
+      "name": "Onion",
+      "price": 1.8,
+      "description": "Fresh onions.",
+      "rating": 4.2,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2014/10/22/21/53/red-onions-vegetables-499066_640.jpg"
+    },
+    {
+      "name": "Garlic",
+      "price": 3.0,
+      "description": "Fresh garlic bulbs.",
+      "rating": 4.6,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2017/02/25/13/24/garlic-2097759_640.jpg"
+    },
+    {
+      "name": "Grapes",
+      "price": 4.0,
+      "description": "Seedless grapes.",
+      "rating": 4.7,
+      "category": "Fruits",
+      "img_url": "https://cdn.pixabay.com/photo/2023/10/10/16/05/grapes-8306833_1280.jpg"
+    },
+    {
+      "name": "Strawberries",
+      "price": 5.0,
+      "description": "Fresh strawberries.",
+      "rating": 4.8,
+      "category": "Fruits",
+      "img_url": "https://cdn.pixabay.com/photo/2020/04/22/17/24/strawberry-5079237_640.jpg"
+    },
+    {
+      "name": "Peaches",
+      "price": 3.5,
+      "description": "Juicy peaches.",
+      "rating": 4.6,
+      "category": "Fruits",
+      "img_url": "https://cdn.pixabay.com/photo/2019/07/31/16/44/peaches-4375600_640.jpg"
+    },
+    {
+      "name": "Bell Pepper",
+      "price": 2.5,
+      "description": "Fresh bell peppers.",
+      "rating": 4.4,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2014/10/22/21/54/bell-peppers-499068_640.jpg"
+    },
+    {
+      "name": "Cucumber",
+      "price": 1.7,
+      "description": "Fresh cucumbers.",
+      "rating": 4.3,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2024/05/03/09/59/ai-generated-8736708_640.jpg"
+    },
+    {
+      "name": "Spinach",
+      "price": 2.8,
+      "description": "Fresh spinach leaves.",
+      "rating": 4.5,
+      "category": "Vegetables",
+      "img_url": "https://cdn.pixabay.com/photo/2022/02/01/13/06/vegetables-6986310_640.jpg"
+    },
+    {
+      "name": "Lemon",
+      "price": 1.6,
+      "description": "Fresh lemons.",
+      "rating": 4.4,
+      "category": "Fruits",
+      "img_url": "https://cdn.pixabay.com/photo/2018/06/02/03/39/lemon-3447726_640.jpg"
+    }]
