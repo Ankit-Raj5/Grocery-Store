@@ -13,7 +13,7 @@ const Items = () => {
     selectedCategory === 'All'? groceryItems: groceryItems.filter((item) => item.category === selectedCategory
   );
 
-  const handlePayment = async () => {
+  const handlePayment = async (price) => {
     try {
       // Step 1: Create order via backend
       const response = await fetch('http://localhost:3004/createOrder', {
@@ -22,16 +22,16 @@ const Items = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          amount: 500, // Example amount in INR
+          amount: price,
           currency: 'INR',
           receipt: 'receipt_1',
-        }),
+        })
       });
 
       const orderData = await response.json();
 
       const options = {
-        key: 'your_razorpay_key_id', // Enter your Razorpay key_id
+        key: 'rzp_test_GcZZFDPP0jHtC4', 
         amount: orderData.amount,
         currency: orderData.currency,
         name: 'Your Grocery Store',
@@ -45,7 +45,7 @@ const Items = () => {
             razorpay_signature: response.razorpay_signature,
           };
 
-          const verificationResponse = await fetch('http://localhost:5000/verifyPayment', {
+          const verificationResponse = await fetch('http://localhost:3004/verifyPayment', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -99,14 +99,14 @@ const Items = () => {
           ))}
         </select>
       </div>
-
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
+      
+      <ul className='d-flex flex-row flex-wrap '>
           {filteredItems.map((element) => (
             <div className="col-md-4" key={element.name}>
               <Item_card img_url={element.img_url} 
               name ={element.name} rating = {element.rating}
               price={element.price*20}
-              onclick = {handlePayment}
+              onclick = {()=>handlePayment(element.price*20)}
               description = {element.description}
               />
           </div>
